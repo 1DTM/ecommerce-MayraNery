@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: #00AEFF;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-banner h2{
+    color: #F9F9F9;
+
+font-family: Montserrat;
+font-size: 48px;
+}
+
+
+
+h1 {
+    color: #000000;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+section {
+    background-image: url('img/bkg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 378px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section p,h1 {
+    color: #ffffff;
+    width: 637px;
+
+    
+}
+
+p {
+    color: #000000;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.destaques{
+    text-align: center;
+}
+
+.produto {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;color: #181818;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.cards{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.img-card{
+    width: 415px;
+height: 302px;
+background: #EBE9EA;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+footer{
+
+background: #00AEFF;
+text-align: center;
+}
